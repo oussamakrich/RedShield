@@ -25,20 +25,23 @@ body {
 .input {
 	border: solid;
 	padding: 8px 20px 5px 30px;
-	background-color: rgba(30, 30, 30, 0.2);
+	background-color:#e6e6e6;
 	font-size: 15px;
 	width: 400px;
 	display: block;
 	height: 25px;
-	border-radius: 8px;
-
+	border-radius: 8px;	
 }
 
+.input::placeholder {
+	text-align: center;	
+}
+.input:focus-visible{
+	border: transparent;
+}
 .submit {
 	background : black;
 	color : white;
-	font-size: 15px;
-	display: block;
 	padding: 8px 20px 8px 30px;
 	width: 450px;
 	height: 40px;
@@ -47,19 +50,31 @@ body {
 	margin: 0 auto;
 }
 
+.submit:hover{
+	transition: 1s;
+	box-shadow: inset 450px 0 0 0 #fb04b5;
+	/* background-color: transparent; */
+}
+
 #header {
 	/* text-align: center; */
 
 	width: 100%;
 	display: block;
 	font-family: 'Montserrat', sans-serif;
-	/* font-family: Montserrat-Medium; */
-	font-size: 50px;
+	/* font-size: 50px; */
 	color: #555;
-	line-height: 1.2;
 	text-align: center;
 }
 
-.input::placeholder {
-	text-align: center;	
+.remember {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#sign{
+	color :black;
+}
+.signUp#sign:hover {
+	color:#fb04b5
 }
