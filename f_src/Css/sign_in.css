@@ -18,7 +18,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: black;
-	padding: 200px 200px 200px 200px;
+	padding: 50px 150px 50px 150px;
 	border-radius: 10px;
 }
 
@@ -87,4 +87,44 @@ body {
 	color:red
 }
 
+hr {
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
 /* 555 */
+
+.google-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+}
+
+.google-signin-button {
+	display: inline-block;
+	background-color: #1d1818;
+	color: #737373;
+	border: 1px solid #584a4a;
+	border-radius: 4px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 10px 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.google-logo {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.google-text {
+	vertical-align: middle;
+}
