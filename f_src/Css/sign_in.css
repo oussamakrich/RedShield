@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url("../img/back.jpg");
+	background-image: url("../img/dark-abstract.jpg");
 	background-position: center;
 	background-size: cover;
 	margin :0;
@@ -17,42 +17,49 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: white;
-	padding: 50px 50px 50px 50px;
+	background: black;
+	padding: 200px 200px 200px 200px;
 	border-radius: 10px;
 }
 
 .input {
 	border: solid;
-	padding: 8px 20px 5px 30px;
-	background-color:#e6e6e6;
+	padding: 16px 40px 10px 60px;
+	background-color: #333232;
 	font-size: 15px;
 	width: 400px;
 	display: block;
 	height: 25px;
-	border-radius: 8px;	
+	border-radius: 5px;	
 }
 
 .input::placeholder {
-	text-align: center;	
+	text-align: center;
+	font-size: 17px;
+	color: rgb(255, 255, 255);
 }
 .input:focus-visible{
 	border: transparent;
 }
 .submit {
-	background : black;
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background : #d71717;
+	/* background-color: #333232; */
 	color : white;
-	padding: 8px 20px 8px 30px;
-	width: 450px;
-	height: 40px;
+	padding: 16px 40px 40px 60px;
+	width: 500px;
+	height: 50px;
 	border: none;
-	border-radius: 8px;
+	border-radius: 2px;
 	margin: 0 auto;
 }
 
 .submit:hover{
 	transition: 1s;
-	box-shadow: inset 450px 0 0 0 #fb04b5;
+	/* box-shadow: inset 450px 0 0 0 #333232; */
+	transform: scale(1.05); 
+	color: black;
 	/* background-color: transparent; */
 }
 
@@ -61,20 +68,23 @@ body {
 
 	width: 100%;
 	display: block;
-	font-family: 'Montserrat', sans-serif;
-	/* font-size: 50px; */
-	color: #555;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 50px;
+	color: white;
 	text-align: center;
 }
 
 .remember {
 	padding-top: 20px;
 	text-align: center;
+	color: #a49f9f;
 }
 
 #sign{
-	color :black;
+	color :rgb(255, 255, 255);
 }
 .signUp#sign:hover {
-	color:#fb04b5
+	color:red
 }
+
+/* 555 */
